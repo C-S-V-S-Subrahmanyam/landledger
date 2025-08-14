@@ -1,0 +1,14 @@
+[package]
+name = "LandLedger"
+version = "1.0.0"
+authors = []
+
+[addresses]
+landledger_addr = "0x2161395c0ca6a820e5c864436a90c863439a4d3370b8ce49987d58efc9ad44fe"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-token" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-token-objects" }
+
+[dev-dependencies]
